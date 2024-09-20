@@ -1,0 +1,33 @@
+{
+  "build": "haa95532_1",
+  "build_number": 1,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\conda-env-2.6.0-haa95532_1",
+  "features": "",
+  "files": [],
+  "fn": "conda-env-2.6.0-haa95532_1.conda",
+  "legacy_bz2_md5": "dce0e388841af5e8816d30bff750f7c6",
+  "legacy_bz2_size": 3213,
+  "license": "BSD 3-Clause",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\conda-env-2.6.0-haa95532_1",
+    "type": 1
+  },
+  "md5": "3bd73f2c6320c50fcf98269b89ceb2a9",
+  "name": "conda-env",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\conda-env-2.6.0-haa95532_1.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "conda-env==2.6.0=haa95532_1",
+  "sha256": "559d6b227d65ecfc3b0741d64b143cb8f3c3a04f147dcf9b27683eb0e42f97ef",
+  "size": 3568,
+  "subdir": "win-64",
+  "timestamp": 1642411463690,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/conda-env-2.6.0-haa95532_1.conda",
+  "version": "2.6.0"
+}

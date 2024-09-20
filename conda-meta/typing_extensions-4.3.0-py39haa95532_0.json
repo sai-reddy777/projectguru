@@ -1,0 +1,46 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\typing_extensions-4.3.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/__pycache__/typing_extensions.cpython-39.pyc",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/INSTALLER",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/LICENSE",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/METADATA",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/RECORD",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/REQUESTED",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/WHEEL",
+    "Lib/site-packages/typing_extensions-4.3.0.dist-info/direct_url.json",
+    "Lib/site-packages/typing_extensions.py"
+  ],
+  "fn": "typing_extensions-4.3.0-py39haa95532_0.conda",
+  "legacy_bz2_md5": "386c0ea147c6a0c9de4b317f9a81242f",
+  "legacy_bz2_size": 44684,
+  "license": "PSF-2.0",
+  "license_family": "PSF",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\typing_extensions-4.3.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "7b2dcd21a6b84b2787750282798a7cc0",
+  "name": "typing_extensions",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\typing_extensions-4.3.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "typing_extensions==4.3.0=py39haa95532_0",
+  "sha256": "de679831ab3f862f57ec9e81a20b2f3dd30f3cbe58882df4c2c2aea2df130180",
+  "size": 43074,
+  "subdir": "win-64",
+  "timestamp": 1659638996293,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/typing_extensions-4.3.0-py39haa95532_0.conda",
+  "version": "4.3.0"
+}

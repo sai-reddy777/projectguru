@@ -1,0 +1,52 @@
+{
+  "build": "py39hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\kiwisolver-1.4.2-py39hd77b12b_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/INSTALLER",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/LICENSE",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/METADATA",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/RECORD",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/REQUESTED",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/WHEEL",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/direct_url.json",
+    "Lib/site-packages/kiwisolver-1.4.2.dist-info/top_level.txt",
+    "Lib/site-packages/kiwisolver/__init__.py",
+    "Lib/site-packages/kiwisolver/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/kiwisolver/_cext.cp39-win_amd64.pyd",
+    "Lib/site-packages/kiwisolver/_cext.pyi",
+    "Lib/site-packages/kiwisolver/py.typed"
+  ],
+  "fn": "kiwisolver-1.4.2-py39hd77b12b_0.conda",
+  "legacy_bz2_md5": "e36149f322cf914c8611810d162e74f2",
+  "legacy_bz2_size": 66329,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\kiwisolver-1.4.2-py39hd77b12b_0",
+    "type": 1
+  },
+  "md5": "bb322d52aa9992af0c320c8bd2b8b876",
+  "name": "kiwisolver",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\kiwisolver-1.4.2-py39hd77b12b_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "kiwisolver==1.4.2=py39hd77b12b_0",
+  "sha256": "0d898377da0fdd619f56423de5e951ad2a01b37d1fec78cce26d197791c1cee7",
+  "size": 59668,
+  "subdir": "win-64",
+  "timestamp": 1653292504277,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/kiwisolver-1.4.2-py39hd77b12b_0.conda",
+  "version": "1.4.2"
+}

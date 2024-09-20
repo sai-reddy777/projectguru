@@ -1,0 +1,59 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "cssselect >=0.9",
+    "lxml",
+    "python >=3.9,<3.10.0a0",
+    "six >=1.6.0",
+    "w3lib >=1.19.0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\parsel-1.6.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/parsel-1.6.0.dist-info/INSTALLER",
+    "Lib/site-packages/parsel-1.6.0.dist-info/LICENSE",
+    "Lib/site-packages/parsel-1.6.0.dist-info/METADATA",
+    "Lib/site-packages/parsel-1.6.0.dist-info/RECORD",
+    "Lib/site-packages/parsel-1.6.0.dist-info/REQUESTED",
+    "Lib/site-packages/parsel-1.6.0.dist-info/WHEEL",
+    "Lib/site-packages/parsel-1.6.0.dist-info/direct_url.json",
+    "Lib/site-packages/parsel-1.6.0.dist-info/top_level.txt",
+    "Lib/site-packages/parsel/__init__.py",
+    "Lib/site-packages/parsel/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/parsel/__pycache__/csstranslator.cpython-39.pyc",
+    "Lib/site-packages/parsel/__pycache__/selector.cpython-39.pyc",
+    "Lib/site-packages/parsel/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/parsel/__pycache__/xpathfuncs.cpython-39.pyc",
+    "Lib/site-packages/parsel/csstranslator.py",
+    "Lib/site-packages/parsel/selector.py",
+    "Lib/site-packages/parsel/utils.py",
+    "Lib/site-packages/parsel/xpathfuncs.py"
+  ],
+  "fn": "parsel-1.6.0-py39haa95532_0.conda",
+  "legacy_bz2_md5": "ad7971d464b23a56868abf9122e42355",
+  "legacy_bz2_size": 330824,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\parsel-1.6.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "da92607d6d887f45b2be92bb39f9df58",
+  "name": "parsel",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\parsel-1.6.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "parsel==1.6.0=py39haa95532_0",
+  "sha256": "ef3120a2d95bdbb3ffb4164b20f9f8b550a53bd8422b70c91e9ccc3516247b96",
+  "size": 359300,
+  "subdir": "win-64",
+  "timestamp": 1646740269980,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/parsel-1.6.0-py39haa95532_0.conda",
+  "version": "1.6.0"
+}

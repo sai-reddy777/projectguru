@@ -1,0 +1,58 @@
+{
+  "build": "py39h59b6b97_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\msgpack-python-1.0.3-py39h59b6b97_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/msgpack-1.0.3.dist-info/COPYING",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/INSTALLER",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/METADATA",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/RECORD",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/REQUESTED",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/WHEEL",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/direct_url.json",
+    "Lib/site-packages/msgpack-1.0.3.dist-info/top_level.txt",
+    "Lib/site-packages/msgpack/__init__.py",
+    "Lib/site-packages/msgpack/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/msgpack/__pycache__/_version.cpython-39.pyc",
+    "Lib/site-packages/msgpack/__pycache__/exceptions.cpython-39.pyc",
+    "Lib/site-packages/msgpack/__pycache__/ext.cpython-39.pyc",
+    "Lib/site-packages/msgpack/__pycache__/fallback.cpython-39.pyc",
+    "Lib/site-packages/msgpack/_cmsgpack.cp39-win_amd64.pyd",
+    "Lib/site-packages/msgpack/_version.py",
+    "Lib/site-packages/msgpack/exceptions.py",
+    "Lib/site-packages/msgpack/ext.py",
+    "Lib/site-packages/msgpack/fallback.py"
+  ],
+  "fn": "msgpack-python-1.0.3-py39h59b6b97_0.conda",
+  "legacy_bz2_md5": "6b7d9b4724303c0159086d28e9ef4901",
+  "legacy_bz2_size": 82755,
+  "license": "Apache-2.0",
+  "license_family": "Apache",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\msgpack-python-1.0.3-py39h59b6b97_0",
+    "type": 1
+  },
+  "md5": "30b56742fb663a52d64205d828db5655",
+  "name": "msgpack-python",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\msgpack-python-1.0.3-py39h59b6b97_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "msgpack-python==1.0.3=py39h59b6b97_0",
+  "sha256": "88bf8d1e8f7c7276409c8361b4cd3264b71721edddaf131ae71e67d191cebd08",
+  "size": 77089,
+  "subdir": "win-64",
+  "timestamp": 1652329408426,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/msgpack-python-1.0.3-py39h59b6b97_0.conda",
+  "version": "1.0.3"
+}

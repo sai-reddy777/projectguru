@@ -1,0 +1,63 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "black",
+    "python >=3.6",
+    "python-lsp-server",
+    "toml"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\python-lsp-black-1.0.0-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/pylsp_black/__init__.py",
+    "Lib/site-packages/pylsp_black/plugin.py",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/INSTALLER",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/METADATA",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/RECORD",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/REQUESTED",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/WHEEL",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/direct_url.json",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/entry_points.txt",
+    "Lib/site-packages/python_lsp_black-1.0.0.dist-info/top_level.txt",
+    "Lib/site-packages/pylsp_black/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pylsp_black/__pycache__/plugin.cpython-39.pyc"
+  ],
+  "fn": "python-lsp-black-1.0.0-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "a28b0fe02a9ab852ee47b649721b5490",
+  "legacy_bz2_size": 7796,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\python-lsp-black-1.0.0-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "958769ce1f8f65c50c8a9ded16f17100",
+  "name": "python-lsp-black",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\python-lsp-black-1.0.0-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/pylsp_black/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/pylsp_black/__pycache__/plugin.cpython-39.pyc",
+        "path_type": "pyc_file"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "python-lsp-black==1.0.0=pyhd3eb1b0_0",
+  "sha256": "7f733d8cd864d472bcd154aac310e71caa2ed2daa8a6a2d0c63f7b01c8bea080",
+  "size": 8673,
+  "subdir": "noarch",
+  "timestamp": 1634232184196,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/python-lsp-black-1.0.0-pyhd3eb1b0_0.conda",
+  "version": "1.0.0"
+}

@@ -1,0 +1,61 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\platformdirs-2.5.2-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/INSTALLER",
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/METADATA",
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/RECORD",
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/REQUESTED",
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/WHEEL",
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/direct_url.json",
+    "Lib/site-packages/platformdirs-2.5.2.dist-info/licenses/LICENSE.txt",
+    "Lib/site-packages/platformdirs/__init__.py",
+    "Lib/site-packages/platformdirs/__main__.py",
+    "Lib/site-packages/platformdirs/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/__main__.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/android.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/api.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/macos.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/unix.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/version.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/__pycache__/windows.cpython-39.pyc",
+    "Lib/site-packages/platformdirs/android.py",
+    "Lib/site-packages/platformdirs/api.py",
+    "Lib/site-packages/platformdirs/macos.py",
+    "Lib/site-packages/platformdirs/py.typed",
+    "Lib/site-packages/platformdirs/unix.py",
+    "Lib/site-packages/platformdirs/version.py",
+    "Lib/site-packages/platformdirs/windows.py"
+  ],
+  "fn": "platformdirs-2.5.2-py39haa95532_0.conda",
+  "legacy_bz2_md5": "f266f6a3af01a2feec6fff8ef8f31c7a",
+  "legacy_bz2_size": 23983,
+  "license": "MIT",
+  "license_family": "MIT",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\platformdirs-2.5.2-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "d748a457a07c1a86b3bddb0458be60b3",
+  "name": "platformdirs",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\platformdirs-2.5.2-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "platformdirs==2.5.2=py39haa95532_0",
+  "sha256": "4bbd0c45e89ce14e2c8a9d3025843de727c76227a4a1f634925680cf733cf864",
+  "size": 24390,
+  "subdir": "win-64",
+  "timestamp": 1662711507697,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/platformdirs-2.5.2-py39haa95532_0.conda",
+  "version": "2.5.2"
+}

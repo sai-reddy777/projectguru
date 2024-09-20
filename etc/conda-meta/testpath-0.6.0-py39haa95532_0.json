@@ -1,0 +1,56 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\testpath-0.6.0-py39haa95532_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/testpath-0.6.0.dist-info/INSTALLER",
+    "Lib/site-packages/testpath-0.6.0.dist-info/LICENSE",
+    "Lib/site-packages/testpath-0.6.0.dist-info/METADATA",
+    "Lib/site-packages/testpath-0.6.0.dist-info/RECORD",
+    "Lib/site-packages/testpath-0.6.0.dist-info/REQUESTED",
+    "Lib/site-packages/testpath-0.6.0.dist-info/WHEEL",
+    "Lib/site-packages/testpath-0.6.0.dist-info/direct_url.json",
+    "Lib/site-packages/testpath/__init__.py",
+    "Lib/site-packages/testpath/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/testpath/__pycache__/asserts.cpython-39.pyc",
+    "Lib/site-packages/testpath/__pycache__/commands.cpython-39.pyc",
+    "Lib/site-packages/testpath/__pycache__/env.cpython-39.pyc",
+    "Lib/site-packages/testpath/__pycache__/tempdir.cpython-39.pyc",
+    "Lib/site-packages/testpath/asserts.py",
+    "Lib/site-packages/testpath/cli-32.exe",
+    "Lib/site-packages/testpath/cli-64.exe",
+    "Lib/site-packages/testpath/commands.py",
+    "Lib/site-packages/testpath/env.py",
+    "Lib/site-packages/testpath/tempdir.py"
+  ],
+  "fn": "testpath-0.6.0-py39haa95532_0.conda",
+  "legacy_bz2_md5": "9e19229b635f3376982268031a23587b",
+  "legacy_bz2_size": 94147,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\testpath-0.6.0-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "cd75c9e0b80688dd1339661a6a93b126",
+  "name": "testpath",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\testpath-0.6.0-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "testpath==0.6.0=py39haa95532_0",
+  "sha256": "b1ce442180120701a5724a524c01892397525a8bf46e4c574aa5f8de71770a22",
+  "size": 87068,
+  "subdir": "win-64",
+  "timestamp": 1655908617544,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/testpath-0.6.0-py39haa95532_0.conda",
+  "version": "0.6.0"
+}

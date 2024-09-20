@@ -1,0 +1,73 @@
+{
+  "build": "hd77b12b_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "libsodium >=1.0.18,<1.0.19.0a0",
+    "vc >=14.1,<15.0a0",
+    "vs2015_runtime >=14.16.27012,<15.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\zeromq-4.3.4-hd77b12b_0",
+  "features": "",
+  "files": [
+    "Library/bin/libzmq-mt-4_3_4.dll",
+    "Library/bin/libzmq.dll",
+    "Library/include/zmq.h",
+    "Library/include/zmq_utils.h",
+    "Library/lib/libzmq-mt-4_3_4.lib",
+    "Library/lib/libzmq-mt-s-4_3_4.lib",
+    "Library/lib/libzmq.lib",
+    "Library/lib/pkgconfig/libzmq.pc",
+    "Library/share/cmake/ZeroMQ/ZeroMQConfig.cmake",
+    "Library/share/cmake/ZeroMQ/ZeroMQConfigVersion.cmake",
+    "Library/share/cmake/ZeroMQ/ZeroMQTargets-release.cmake",
+    "Library/share/cmake/ZeroMQ/ZeroMQTargets.cmake",
+    "Library/share/zmq/AUTHORS.txt",
+    "Library/share/zmq/COPYING.LESSER.txt",
+    "Library/share/zmq/COPYING.txt",
+    "Library/share/zmq/NEWS.txt"
+  ],
+  "fn": "zeromq-4.3.4-hd77b12b_0.conda",
+  "legacy_bz2_md5": "1ab55f8c4b5292ec360c572120bf823e",
+  "legacy_bz2_size": 9430705,
+  "license": "LGPL-3.0-or-later",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\zeromq-4.3.4-hd77b12b_0",
+    "type": 1
+  },
+  "md5": "7ff02321d5d388ddf94daa3300a015cf",
+  "name": "zeromq",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\zeromq-4.3.4-hd77b12b_0.conda",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Library/lib/pkgconfig/libzmq.pc",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/zeromq_1616055400030/_h_env",
+        "sha256": "1e2b42b6170510f5de988ad81736cd8dadd4f331144489489ffe6e989f997379",
+        "sha256_in_prefix": "01f69c730aa0d72de92c2fa4c8c1acb58e0b062bcaa4517817330aba3572217f",
+        "size_in_bytes": 379
+      },
+      {
+        "_path": "Library/share/cmake/ZeroMQ/ZeroMQTargets.cmake",
+        "file_mode": "text",
+        "path_type": "hardlink",
+        "prefix_placeholder": "C:/ci/zeromq_1616055400030/_h_env",
+        "sha256": "10727450bed8e97d01dc7fccf039309be3d9c9755e6e4813e77d179054a1132e",
+        "sha256_in_prefix": "f137e9562b8124b2ca724e8fbed8115c7bd3c95f87ce5aa3a740398cf26029b0",
+        "size_in_bytes": 3943
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "zeromq==4.3.4=hd77b12b_0",
+  "sha256": "70ed550e9b24f07a66e2e022b8544c3625aef26f05eb18c89533fa4624b1e637",
+  "size": 4394078,
+  "subdir": "win-64",
+  "timestamp": 1616055773485,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/zeromq-4.3.4-hd77b12b_0.conda",
+  "version": "4.3.4"
+}

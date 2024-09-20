@@ -1,0 +1,39 @@
+{
+  "build": "py39haa95532_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "matplotlib-base >=3.5.2,<3.5.3.0a0",
+    "pyqt",
+    "python >=3.9,<3.10.0a0",
+    "tornado"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\matplotlib-3.5.2-py39haa95532_0",
+  "features": "",
+  "files": [],
+  "fn": "matplotlib-3.5.2-py39haa95532_0.conda",
+  "legacy_bz2_md5": "5c35f80c7f26e71f35ab1d1f35212905",
+  "legacy_bz2_size": 28670,
+  "license": "LicenseRef-PSF-based",
+  "license_family": "PSF",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\matplotlib-3.5.2-py39haa95532_0",
+    "type": 1
+  },
+  "md5": "0ca1d27477778dae1a78dbaafe1c6320",
+  "name": "matplotlib",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\matplotlib-3.5.2-py39haa95532_0.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "matplotlib==3.5.2=py39haa95532_0",
+  "sha256": "451bbeb0a08663ddbb9b0b09e21c9adece5e02d1ba84e3cfe6b4fde77a8a5b2f",
+  "size": 29793,
+  "subdir": "win-64",
+  "timestamp": 1660170328141,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/matplotlib-3.5.2-py39haa95532_0.conda",
+  "version": "3.5.2"
+}

@@ -1,0 +1,53 @@
+{
+  "build": "py39haa95532_2",
+  "build_number": 2,
+  "channel": "https://repo.anaconda.com/pkgs/main/win-64",
+  "constrains": [],
+  "depends": [
+    "python >=3.9,<3.10.0a0"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\pydispatcher-2.0.5-py39haa95532_2",
+  "features": "",
+  "files": [
+    "Lib/site-packages/PyDispatcher-2.0.5-py3.9.egg-info/PKG-INFO",
+    "Lib/site-packages/PyDispatcher-2.0.5-py3.9.egg-info/SOURCES.txt",
+    "Lib/site-packages/PyDispatcher-2.0.5-py3.9.egg-info/dependency_links.txt",
+    "Lib/site-packages/PyDispatcher-2.0.5-py3.9.egg-info/top_level.txt",
+    "Lib/site-packages/pydispatch/__init__.py",
+    "Lib/site-packages/pydispatch/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/pydispatch/__pycache__/dispatcher.cpython-39.pyc",
+    "Lib/site-packages/pydispatch/__pycache__/errors.cpython-39.pyc",
+    "Lib/site-packages/pydispatch/__pycache__/robust.cpython-39.pyc",
+    "Lib/site-packages/pydispatch/__pycache__/robustapply.cpython-39.pyc",
+    "Lib/site-packages/pydispatch/__pycache__/saferef.cpython-39.pyc",
+    "Lib/site-packages/pydispatch/dispatcher.py",
+    "Lib/site-packages/pydispatch/errors.py",
+    "Lib/site-packages/pydispatch/robust.py",
+    "Lib/site-packages/pydispatch/robustapply.py",
+    "Lib/site-packages/pydispatch/saferef.py"
+  ],
+  "fn": "pydispatcher-2.0.5-py39haa95532_2.conda",
+  "legacy_bz2_md5": "37e8f88b8cf8ba82ceb06aaf3d4fe38d",
+  "legacy_bz2_size": 21028,
+  "license": "BSD-3-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\pydispatcher-2.0.5-py39haa95532_2",
+    "type": 1
+  },
+  "md5": "1a7cb07b191f1ae2678fae1ab23f9ba4",
+  "name": "pydispatcher",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\pydispatcher-2.0.5-py39haa95532_2.conda",
+  "paths_data": {
+    "paths": [],
+    "paths_version": 1
+  },
+  "requested_spec": "pydispatcher==2.0.5=py39haa95532_2",
+  "sha256": "8084272cae7b050cb6980e55b76263e5a4adf0cd651456eec8af695776fecb05",
+  "size": 20712,
+  "subdir": "win-64",
+  "timestamp": 1646655134055,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/win-64/pydispatcher-2.0.5-py39haa95532_2.conda",
+  "version": "2.0.5"
+}

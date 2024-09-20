@@ -1,0 +1,567 @@
+{
+  "build": "pyhd3eb1b0_0",
+  "build_number": 0,
+  "channel": "https://repo.anaconda.com/pkgs/main/noarch",
+  "constrains": [],
+  "depends": [
+    "appdirs",
+    "dask",
+    "entrypoints",
+    "fsspec >=2021.7.0",
+    "jinja2",
+    "msgpack-python",
+    "python >=3.7",
+    "python-snappy",
+    "pyyaml",
+    "requests",
+    "tornado"
+  ],
+  "extracted_package_dir": "C:\\anaconda\\pkgs\\intake-0.6.5-pyhd3eb1b0_0",
+  "features": "",
+  "files": [
+    "Lib/site-packages/intake-0.6.5.dist-info/INSTALLER",
+    "Lib/site-packages/intake-0.6.5.dist-info/LICENSE",
+    "Lib/site-packages/intake-0.6.5.dist-info/METADATA",
+    "Lib/site-packages/intake-0.6.5.dist-info/RECORD",
+    "Lib/site-packages/intake-0.6.5.dist-info/REQUESTED",
+    "Lib/site-packages/intake-0.6.5.dist-info/WHEEL",
+    "Lib/site-packages/intake-0.6.5.dist-info/direct_url.json",
+    "Lib/site-packages/intake-0.6.5.dist-info/entry_points.txt",
+    "Lib/site-packages/intake-0.6.5.dist-info/pbr.json",
+    "Lib/site-packages/intake-0.6.5.dist-info/top_level.txt",
+    "Lib/site-packages/intake/__init__.py",
+    "Lib/site-packages/intake/_version.py",
+    "Lib/site-packages/intake/auth/__init__.py",
+    "Lib/site-packages/intake/auth/base.py",
+    "Lib/site-packages/intake/auth/secret.py",
+    "Lib/site-packages/intake/catalog/__init__.py",
+    "Lib/site-packages/intake/catalog/base.py",
+    "Lib/site-packages/intake/catalog/default.py",
+    "Lib/site-packages/intake/catalog/entry.py",
+    "Lib/site-packages/intake/catalog/exceptions.py",
+    "Lib/site-packages/intake/catalog/gui.py",
+    "Lib/site-packages/intake/catalog/local.py",
+    "Lib/site-packages/intake/catalog/remote.py",
+    "Lib/site-packages/intake/catalog/tests/catalog_search/example_packages/ep-0.1.dist-info/entry_points.txt",
+    "Lib/site-packages/intake/catalog/tests/catalog_search/example_packages/ep/__init__.py",
+    "Lib/site-packages/intake/catalog/tests/catalog_search/yaml.yml",
+    "Lib/site-packages/intake/catalog/utils.py",
+    "Lib/site-packages/intake/catalog/zarr.py",
+    "Lib/site-packages/intake/cli/__init__.py",
+    "Lib/site-packages/intake/cli/bootstrap.py",
+    "Lib/site-packages/intake/cli/client/__init__.py",
+    "Lib/site-packages/intake/cli/client/__main__.py",
+    "Lib/site-packages/intake/cli/client/subcommands/__init__.py",
+    "Lib/site-packages/intake/cli/client/subcommands/cache.py",
+    "Lib/site-packages/intake/cli/client/subcommands/config.py",
+    "Lib/site-packages/intake/cli/client/subcommands/describe.py",
+    "Lib/site-packages/intake/cli/client/subcommands/discover.py",
+    "Lib/site-packages/intake/cli/client/subcommands/drivers.py",
+    "Lib/site-packages/intake/cli/client/subcommands/example.py",
+    "Lib/site-packages/intake/cli/client/subcommands/exists.py",
+    "Lib/site-packages/intake/cli/client/subcommands/get.py",
+    "Lib/site-packages/intake/cli/client/subcommands/info.py",
+    "Lib/site-packages/intake/cli/client/subcommands/list.py",
+    "Lib/site-packages/intake/cli/client/subcommands/precache.py",
+    "Lib/site-packages/intake/cli/sample/states_1.csv",
+    "Lib/site-packages/intake/cli/sample/states_2.csv",
+    "Lib/site-packages/intake/cli/sample/us_states.yml",
+    "Lib/site-packages/intake/cli/server/__init__.py",
+    "Lib/site-packages/intake/cli/server/__main__.py",
+    "Lib/site-packages/intake/cli/server/server.py",
+    "Lib/site-packages/intake/cli/server/templates/index.html",
+    "Lib/site-packages/intake/cli/util.py",
+    "Lib/site-packages/intake/compat.py",
+    "Lib/site-packages/intake/config.py",
+    "Lib/site-packages/intake/conftest.py",
+    "Lib/site-packages/intake/container/__init__.py",
+    "Lib/site-packages/intake/container/base.py",
+    "Lib/site-packages/intake/container/dataframe.py",
+    "Lib/site-packages/intake/container/ndarray.py",
+    "Lib/site-packages/intake/container/persist.py",
+    "Lib/site-packages/intake/container/semistructured.py",
+    "Lib/site-packages/intake/container/serializer.py",
+    "Lib/site-packages/intake/interface/__init__.py",
+    "Lib/site-packages/intake/interface/base.py",
+    "Lib/site-packages/intake/interface/catalog/__init__.py",
+    "Lib/site-packages/intake/interface/catalog/add.py",
+    "Lib/site-packages/intake/interface/catalog/gui.py",
+    "Lib/site-packages/intake/interface/catalog/search.py",
+    "Lib/site-packages/intake/interface/catalog/select.py",
+    "Lib/site-packages/intake/interface/conftest.py",
+    "Lib/site-packages/intake/interface/gui.py",
+    "Lib/site-packages/intake/interface/icons/baseline-check-24px.svg",
+    "Lib/site-packages/intake/interface/icons/baseline-error-24px.svg",
+    "Lib/site-packages/intake/interface/icons/logo.png",
+    "Lib/site-packages/intake/interface/server.py",
+    "Lib/site-packages/intake/interface/source/__init__.py",
+    "Lib/site-packages/intake/interface/source/defined_plots.py",
+    "Lib/site-packages/intake/interface/source/description.py",
+    "Lib/site-packages/intake/interface/source/gui.py",
+    "Lib/site-packages/intake/interface/source/select.py",
+    "Lib/site-packages/intake/source/__init__.py",
+    "Lib/site-packages/intake/source/base.py",
+    "Lib/site-packages/intake/source/cache.py",
+    "Lib/site-packages/intake/source/csv.py",
+    "Lib/site-packages/intake/source/decompress.py",
+    "Lib/site-packages/intake/source/derived.py",
+    "Lib/site-packages/intake/source/discovery.py",
+    "Lib/site-packages/intake/source/jsonfiles.py",
+    "Lib/site-packages/intake/source/npy.py",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/collision_foo/__init__.py",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/collision_foo2/__init__.py",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/driver_with_entrypoints/__init__.py",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/intake_foo/__init__.py",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/not_intake_foo/__init__.py",
+    "Lib/site-packages/intake/source/textfiles.py",
+    "Lib/site-packages/intake/source/tiled.py",
+    "Lib/site-packages/intake/source/utils.py",
+    "Lib/site-packages/intake/source/zarr.py",
+    "Lib/site-packages/intake/util_tests.py",
+    "Lib/site-packages/intake/utils.py",
+    "Lib/site-packages/intake/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/__pycache__/_version.cpython-39.pyc",
+    "Lib/site-packages/intake/auth/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/auth/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/intake/auth/__pycache__/secret.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/default.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/entry.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/exceptions.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/gui.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/local.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/remote.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/tests/catalog_search/example_packages/ep/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/intake/catalog/__pycache__/zarr.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/__pycache__/bootstrap.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/__pycache__/__main__.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/cache.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/config.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/describe.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/discover.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/drivers.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/example.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/exists.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/get.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/info.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/list.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/client/subcommands/__pycache__/precache.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/server/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/server/__pycache__/__main__.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/server/__pycache__/server.cpython-39.pyc",
+    "Lib/site-packages/intake/cli/__pycache__/util.cpython-39.pyc",
+    "Lib/site-packages/intake/__pycache__/compat.cpython-39.pyc",
+    "Lib/site-packages/intake/__pycache__/config.cpython-39.pyc",
+    "Lib/site-packages/intake/__pycache__/conftest.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/dataframe.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/ndarray.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/persist.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/semistructured.cpython-39.pyc",
+    "Lib/site-packages/intake/container/__pycache__/serializer.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/catalog/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/catalog/__pycache__/add.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/catalog/__pycache__/gui.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/catalog/__pycache__/search.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/catalog/__pycache__/select.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/__pycache__/conftest.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/__pycache__/gui.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/__pycache__/server.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/source/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/source/__pycache__/defined_plots.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/source/__pycache__/description.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/source/__pycache__/gui.cpython-39.pyc",
+    "Lib/site-packages/intake/interface/source/__pycache__/select.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/base.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/cache.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/csv.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/decompress.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/derived.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/discovery.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/jsonfiles.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/npy.cpython-39.pyc",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/collision_foo/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/collision_foo2/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/driver_with_entrypoints/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/intake_foo/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/source/tests/plugin_searchpath/not_intake_foo/__pycache__/__init__.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/textfiles.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/tiled.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/utils.cpython-39.pyc",
+    "Lib/site-packages/intake/source/__pycache__/zarr.cpython-39.pyc",
+    "Lib/site-packages/intake/__pycache__/util_tests.cpython-39.pyc",
+    "Lib/site-packages/intake/__pycache__/utils.cpython-39.pyc",
+    "Scripts/intake-server-script.py",
+    "Scripts/intake-script.py",
+    "Scripts/intake-server.exe",
+    "Scripts/intake.exe"
+  ],
+  "fn": "intake-0.6.5-pyhd3eb1b0_0.conda",
+  "legacy_bz2_md5": "4095011d0724ec3e712af1bef5880e31",
+  "legacy_bz2_size": 115937,
+  "license": "BSD-2-Clause",
+  "license_family": "BSD",
+  "link": {
+    "source": "C:\\anaconda\\pkgs\\intake-0.6.5-pyhd3eb1b0_0",
+    "type": 1
+  },
+  "md5": "11381cf1cd09d84827033a50027aa9e3",
+  "name": "intake",
+  "noarch": "python",
+  "package_tarball_full_path": "C:\\anaconda\\pkgs\\intake-0.6.5-pyhd3eb1b0_0.conda",
+  "package_type": "noarch_python",
+  "paths_data": {
+    "paths": [
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/_version.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/auth/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/auth/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/auth/__pycache__/secret.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/default.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/entry.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/exceptions.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/gui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/local.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/remote.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/tests/catalog_search/example_packages/ep/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/catalog/__pycache__/zarr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/__pycache__/bootstrap.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/describe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/discover.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/drivers.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/example.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/exists.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/get.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/info.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/list.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/client/subcommands/__pycache__/precache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/server/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/server/__pycache__/__main__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/server/__pycache__/server.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/cli/__pycache__/util.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/compat.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/config.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/dataframe.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/ndarray.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/persist.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/semistructured.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/container/__pycache__/serializer.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/catalog/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/catalog/__pycache__/add.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/catalog/__pycache__/gui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/catalog/__pycache__/search.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/catalog/__pycache__/select.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/__pycache__/conftest.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/__pycache__/gui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/__pycache__/server.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/source/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/source/__pycache__/defined_plots.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/source/__pycache__/description.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/source/__pycache__/gui.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/interface/source/__pycache__/select.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/base.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/cache.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/csv.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/decompress.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/derived.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/discovery.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/jsonfiles.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/npy.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/tests/plugin_searchpath/collision_foo/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/tests/plugin_searchpath/collision_foo2/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/tests/plugin_searchpath/driver_with_entrypoints/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/tests/plugin_searchpath/intake_foo/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/tests/plugin_searchpath/not_intake_foo/__pycache__/__init__.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/textfiles.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/tiled.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/source/__pycache__/zarr.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/util_tests.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Lib/site-packages/intake/__pycache__/utils.cpython-39.pyc",
+        "path_type": "pyc_file"
+      },
+      {
+        "_path": "Scripts/intake-server-script.py",
+        "path_type": "windows_python_entry_point_script"
+      },
+      {
+        "_path": "Scripts/intake-script.py",
+        "path_type": "windows_python_entry_point_script"
+      }
+    ],
+    "paths_version": 1
+  },
+  "requested_spec": "intake==0.6.5=pyhd3eb1b0_0",
+  "sha256": "6b5330c2bda42e06495cfc8aea5b68561837aed5b09308e12f98600ee4c0736a",
+  "size": 182007,
+  "subdir": "noarch",
+  "timestamp": 1647436730232,
+  "track_features": "",
+  "url": "https://repo.anaconda.com/pkgs/main/noarch/intake-0.6.5-pyhd3eb1b0_0.conda",
+  "version": "0.6.5"
+}
